@@ -1,0 +1,64 @@
+.todo {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.todo__title {
+  margin-bottom: 10px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-form__input {
+  flex: 1;
+  padding: 8px;
+}
+
+.todo-form__select {
+  padding: 8px;
+}
+
+.todo-form__button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-form__button--create {
+  background: #000;
+  color: #fff;
+}
+
+/* list */
+.todo-list__header,
+.todo-list__item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.todo-list__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-list__button {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-list__button--update {
+  background: blue;
+  color: #fff;
+}
+
+.todo-list__button--delete {
+  background: red;
+  color: #fff;
+}

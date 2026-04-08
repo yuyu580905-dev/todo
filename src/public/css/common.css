@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* header */
+.header {
+  background: #000;
+}
+
+.header__inner {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* message */
+.message {
+  width: 100%;
+  margin: 0;
+}
+
+.message__inner {
+  max-width: 100%;
+}
+
+.message__text {
+  padding: 10px;
+  border: 1px solid;
+}
+
+.message__text--success {
+  background: #d1e7dd;
+  border-color: #badbcc;
+}
+
+.message__text--error {
+  background: #f8d7da;
+  border-color: #f5c2c7;
+}

@@ -1,0 +1,45 @@
+.category {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.category-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-form__input {
+  flex: 1;
+  padding: 8px;
+}
+
+.category-form__button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+}
+
+/* list */
+.category-list__item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.category-list__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.category-list__button--update {
+  background: blue;
+  color: #fff;
+}
+
+.category-list__button--delete {
+  background: red;
+  color: #fff;
+}
