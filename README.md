@@ -1,1 +1,1 @@
-# laravel-docker-template
+# 以後こちらでREADMEの練習をしていく
